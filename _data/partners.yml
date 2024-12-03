@@ -1,0 +1,47 @@
+- name: Rouvy
+  url: https://rouvy.com
+  cssid: partner-rouvy
+
+- name: Specialized
+  url: https://www.specialized.com/cz/cs
+  cssid: partner-specialized
+
+- name: Fiat Professional
+  url: https://www.fiatprofessional.com/cz
+  cssid: partner-fiat
+
+- name: Auto Dojáček
+  url: http://www.dojacek.cz/
+  cssid: partner-autodojacek
+
+- name: ELITE
+  url: https://www.elite-it.com/
+  cssid: partner-elite
+
+- name: Lawi Sportswear
+  url: https://lawi.cz/
+  cssid: partner-lawi
+
+- name: TrainingPeaks 
+  url: https://www.trainingpeaks.com/
+  cssid: partner-trainingpeaks
+
+- name: GU
+  url: https://guenergy.com/
+  cssid: partner-gu
+
+- name: Finish Line
+  url: https://eshop.progresscycle.cz/kategorie/znacky/finish-line/
+  cssid: partner-finish-line
+
+- name: Jihočeský Kraj
+  url: https://www.kraj-jihocesky.cz/
+  cssid: partner-jihocesky-kraj
+
+- name: Nárdoní Sportovní Agentura
+  url: https://agenturasport.cz/
+  cssid: partner-nsa
+
+- name: Město Vimperk
+  url: https://www.vimperk.cz/
+  cssid: partner-mesto-vimperk

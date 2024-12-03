@@ -1,0 +1,10 @@
+title: ROUVY Cycling Team
+sass:
+    sass_dir: css
+    style: compressed
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - jekyll-bootstrap-minimal-master.zip

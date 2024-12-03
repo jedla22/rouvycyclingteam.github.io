@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        {% assign lang-link = "/" %}
+        {% assign lang-nav = "en" %}
+        {% assign lang-nav-link = "/en" %}
+        {% if page.lang == "en" %}
+            {% assign lang-link = "/en" %}
+            {% assign lang-nav = "cs" %}
+            {% assign lang-nav-link = "/" %}
+        {% endif %}
+        <a class="navbar-brand" href="{{ lang-link }}">
+            <img src="/img/rouvy-team-logo.png" width="150" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                {% for menu in site.data.menu[page.lang] %}
+                    {% if menu.name == page.title %}
+                        <li class="nav-item active">
+                            <a class="nav-link">{{ menu.name }}</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ menu.url }}">{{ menu.name }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+                <li class="nav-item">
+                    <a class="nav-link lang-nav lang-{{ lang-nav }}" href="{{ lang-nav-link }}">{{ lang-nav }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

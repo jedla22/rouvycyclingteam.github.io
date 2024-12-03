@@ -1,0 +1,93 @@
+staff:
+
+- name: "Jiří Lutovský"
+  email: "lutak@bike-klub.cz"
+  img: "/img/lutak.jpg"
+  content:
+    cs: "manažer týmu, šéf trenér"
+    en: "team manage, head coach"
+
+- name: "Jakub Kadlec"
+  email: "kubakadlec9@gmail.com"
+  img: "/img/jakub-kadlec-profil.png"
+  content:
+    cs: "trenér"
+    en: "team manage, coach"
+
+- name: "Jan Jedlička"
+  email: "jena.jedlicka@gmail.com"
+  img: "/img/jan-jedlicka-profil.png"
+  content:
+    cs: "trenér mládeže, webmaster"
+    en: "kids coach, webmaster"
+
+- name: "Tomáš Král"
+  email: ""
+  img: "/img/tomas-kral-profil.png"
+  content:
+    cs: "Mechanik, 4X rider"
+    en: "mechanic, 4X rider"
+
+- name: "Robert Jezl"
+  img: "/img/robert.jpg"
+  content:
+    cs: "realizační tým"
+    en: "team staff"
+
+riders:
+  
+- name: "Adéla Holubová"
+  img: "/img/adela-holubova-profil.png"
+  content:
+    cs: "Ženy U23"
+    en: "Women U23"
+
+# - name: "Nela Viktorová"
+#   img: "/img/nela-viktorova-profil.png"
+#   content:
+#     cs: "Ženy U23"
+#     en: "Women U23"
+
+- name: "Kateřina Bayerová"
+  img: "/img/katerina-bayerova-profil.png"
+  content:
+    cs: "Ženy U23"
+    en: "Women U23"
+
+- name: "Marika Pulkrabová"
+  img: "/img/marika-pulkrabova-profil.png"
+  content:
+    cs: "Juniorky"
+    en: "Junior Women"
+
+- name: "Jakub Vlasatý"
+  img: "/img/jakub-vlasaty-profil.png"
+  content:
+    cs: "Muži U23"
+    en: "Men U23"
+
+- name: "Patrik Pilař"
+  img: "/img/patrik-pilar-profil.png"
+  content:
+    cs: "Junior"
+    en: "Junior Men"
+
+- name: "Lucie Bořánková"
+  img: "/img/lucie-borankova-profil.png"
+  content:
+    cs: "Juniorka"
+    en: "Junior Women"
+
+- name: "Barbora Dvořáková"
+  img: "/img/barbora-dvorakova-profil.png"
+  content:
+    cs: "Juniorka"
+    en: "Junior Women"
+
+- name: "Nikola Zárybnická"
+  img: "/img/nikola-zaribnicka-profil.png"
+  content:
+    cs: "Juniorka"
+    en: "Junior Women"
+
+

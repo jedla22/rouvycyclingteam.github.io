@@ -1,0 +1,538 @@
+---
+---
+/* modify Bootstrap variables here */
+
+@import 'bootstrap/bootstrap';
+
+/* add additional CSS rules below */
+
+html body {
+    background-color: #110728;
+}
+
+html body hr {
+    border-width: 1px;
+    border-color: white;
+}
+
+html body .lead {
+    font-weight: 200;
+}
+
+html body h2 {
+    color: white;
+}
+
+html body {
+    color: white;
+}
+
+html body h3 {
+    color:white;
+}
+
+html body ul.list-group {
+    color: #212529
+}
+
+.header {
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: cover;
+}
+
+#masthead .carousel-inner {
+    max-height: 720px;
+    position: relative;
+    background-color: lightgrey;;
+}
+
+#masthead .carousel-inner ol{
+    margin-bottom: 0rem;
+}
+
+#masthead .carousel-inner .carousel-caption{
+    top: 5%;
+    right: 5%;
+    left: auto;
+    bottom: auto;
+    padding: 25px 35px;
+    background-color: rgba(55,55,55,0.7);
+}
+
+header .overlay-layer {
+    height: auto;
+    padding-bottom: 20px;
+    padding-top:520px;
+    text-align:center;
+}
+
+h1.intro {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color:white;
+}
+
+.intro-section {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    background-color: white;
+    padding: 15px 40px;
+    background: rgba(249, 192, 2, 0.85);
+    z-index: 10000;
+}
+
+.intro-section h5 {
+    margin-top: 13px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+@media  (max-width:991px) {
+    h1.intro {
+        font-size: 3rem;
+        line-height: 4rem;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .intro-section {
+        padding: 15px 45px;
+    }
+
+    header .overlay-layer {
+        padding-top: 350px;
+    }
+}
+
+@media (max-width:767px)
+{
+    h1.intro {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .intro-section {
+        padding: 15px 30px;
+    }
+
+    header .overlay-layer {
+        padding-top: 280px;
+    }
+}
+
+
+
+nav.bg-dark {
+    background-color: #110728 !important;
+}
+
+.roundedAll {
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+}
+
+.roundedAll-large {
+    -moz-border-radius: 36px;
+    -webkit-border-radius: 36px;
+    border-radius: 36px;
+}
+
+.main-info > div.col-md-8 {
+    //height: 590px;
+    margin-top: 5px;
+}
+
+.main-info  div.news 
+{
+    position: relative;
+    margin-top: 0px !important;
+}
+
+.main-info  div.news > p
+{
+    //position: absolute;
+	padding: 20px;
+    padding-bottom:0px;
+	margin-bottom: 0px;
+    bottom: 0px;
+    left:0px;
+    //margin: 0px 15px ;
+    max-height: 300px;
+    overflow: hidden;
+    background: rgb(249, 192, 2);
+    z-index: 1;
+    text-overflow: ellipsis;
+}
+
+.main-info  div.news > ul
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgb(249, 192, 2);
+}
+
+.main-info div.news > ul a{
+	color: black;
+}
+
+.main-info  div.news > a
+{
+    position: absolute;
+    top:20px;
+    right: 35px;
+}
+
+nav.navbar .nav-item a.lang-nav
+{
+    text-transform: uppercase;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+nav.navbar .nav-item a.lang-cs
+{
+    background-image: url(/img/flag-cs.png)
+}
+
+nav.navbar .nav-item a.lang-en
+{
+    background-image: url(/img/flag-en.png)
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    border: 2px solid rgb(53,13,118);
+  }
+  
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+@media (min-width:768px)
+{
+    #projects  div.col-md-6 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #projects  div.col-md-6:first-of-type {
+        padding-left: 15px;
+    }
+
+    #projects  div.col-md-6:last-of-type {
+        padding-right: 15px;
+    }
+}
+
+#projects  div.row > div {
+    margin-bottom: 10px;
+}
+
+#projects  div.project-content {
+    height:300px;
+    border: 2px solid rgb(53,13,118);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#projects  div#project-cpxco {
+    background-image: url(/img/rouvy-promo-v2.jpg)
+}
+
+#projects  div#project-sportcamp {
+    background-image: url(/img/sportcamp-v1.png)
+}
+
+#projects  div#project-spmtb {
+    background-image: url(/img/sumavsky-pohar.jpg)
+}
+
+#projects  div#project-rouvy-grand-prix {
+    background-image: url(/img/rouvy-grand-prix.jpg)
+}
+
+#projects  div#project-trenuj-s-nami {
+    background-image: url(/img/trenujsnami.jpg)
+}
+
+#projects  div#project-rouvycamps {
+    background-image: url(/img/rouvy-camp.jpg)
+}
+
+#projects  div#project-rouvyrides {
+    background-image: url(/img/rouvy-ride.jpg)
+}
+
+#projects  div.row h4 {
+    text-align: center;
+    padding-top: 125px;
+    font-size: 2.3em;
+}
+
+#projects  div.row h4 a {
+    color: black;
+    padding:10px 30px;
+    background-color: rgba(200,200,200, 0.8);
+    display: inline-block;
+}
+
+#team img.img-thumbnail
+{
+    width:100%;
+}
+
+
+footer {
+    position: relative;
+}
+
+footer > div > p
+{
+    color: white;
+    right: 10px;
+    bottom: 10px;
+}
+
+footer.bg-dark {
+    background-color: #110728 !important;
+}
+
+footer #go-rouvy {
+    margin-top: 30px;
+    text-align: center;
+    background: rgba(249, 192, 2, 1);
+    border: 1px solid white;
+    padding: 10px;
+}
+
+footer #go-rouvy span {
+    padding: 25px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+footer #go-rouvy a {
+    display: inline-block;
+    vertical-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 10px 0px;
+}
+
+footer #go-rouvy span.web-icon {
+    background-image: url(/img/web-icon-bw-transparent.png);
+}
+
+footer #go-rouvy span.fb-icon {
+    background-image: url(/img/fb-icon-bw-transparent.png);
+}
+
+footer #go-rouvy span.insta-icon {
+    background-image: url(/img/insta-icon-bw-transparent.png);
+}
+
+footer #partners-footer {
+    margin:20px 0px;
+}
+
+footer #partners-footer > div {
+    margin-bottom: 10px;
+}
+
+footer #partners-footer > div {
+    margin-bottom: 10px;
+}
+
+footer #partners-footer div.container
+{
+    background: white;
+    border: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (min-width:768px)
+{
+    footer #partners-footer  div.col-md-3 {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    footer #partners-footer  div.col-md-3:first-of-type{
+        padding-left: 15px;
+    }
+
+    footer #partners-footer  div.col-md-3:last-of-type{
+        padding-right: 15px;
+    }
+}
+
+footer #partners-footer a.partner-logo {
+    text-align: center;
+    margin:auto;
+    padding: 40px 10px;
+    background: white;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width:767px)
+{
+    footer #partners-footer a.partner-logo
+    {
+        padding: 15px 10px;
+    }
+
+    footer #partners-footer > div {
+        margin-bottom: 0px;
+    }
+}
+
+footer #partners-footer a#footer-partner-rouvy {
+    background-image: url(/img/rouvy-logo-invert.png)
+}
+
+footer #partners-footer a#footer-partner-specialized {
+    background-image: url(/img/specialized-logo-bw.png)
+}
+
+footer #partners-footer a#footer-partner-fiat {
+    background-image: url(/img/fiat-logo.png)
+}
+
+footer #partners-footer a#footer-partner-autodojacek {
+    background-image: url(/img/auto-dojacek-logo.jpg)
+}
+
+footer #partners-footer a#footer-partner-trainingpeaks {
+    background-image: url(/img/trainingpeaks-logo.png)
+}
+
+footer #partners-footer a#footer-partner-elite {
+    background-image: url(/img/elite-logo.png)
+}
+
+footer #partners-footer a#footer-partner-lawi {
+    background-image: url(/img/lawi-logo.png)
+}
+
+footer #partners-footer a#footer-partner-subtera {
+    background-image: url(/img/subtera-logo.png)
+}
+
+footer #partners-footer a#footer-partner-gu {
+    background-image: url(/img/loga/gu.png)
+}
+
+footer #partners-footer a#footer-partner-finish-line {
+    background-image: url(/img/loga/finish-line-v2.png)
+}
+
+footer #partners-footer a#footer-partner-jihocesky-kraj {
+    background-image: url(/img/loga/jihocesky-kraj.png)
+}
+
+footer #partners-footer a#footer-partner-nsa {
+    background-image: url(/img/loga/nsa-logo.png)
+}
+
+footer #partners-footer a#footer-partner-mesto-vimperk {
+    background-image: url(/img/loga/vimperk-logo.jpeg)
+}
+
+
+#page-sportcamp-cs .carousel-inner {
+    max-height: 720px;
+    position: relative;
+    background-color: lightgrey;;
+}
+
+#page-sportcamp-cs  .carousel-inner ol{
+    margin-bottom: 0rem;
+}
+
+#page-sportcamp-cs  .carousel-inner .carousel-caption{
+    top: 5%;
+    right: 5%;
+    left: auto;
+    bottom: auto;
+    padding: 25px 35px;
+    background-color: rgba(55,55,55,0.7);
+}
+
+
+
+#page-sportcamp-cs .header ul {
+    width : 25%;
+    position: absolute;
+    top: 20px;    
+    right:20px;
+    z-index: 11000;
+}
+
+#page-sportcamp-cs .header ul li {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media  (max-width:1199px) {
+
+    #page-sportcamp-cs .header ul {
+        width : 30%;
+    }
+}
+
+@media  (max-width:991px) {
+
+    #page-sportcamp-cs .header ul {
+        width : 40%;
+    }
+}
+
+
+@media  (max-width:767px) {
+
+    #page-sportcamp-cs .header ul {
+       
+        width : 70%;
+    }
+}
