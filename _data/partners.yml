@@ -7,7 +7,7 @@
   cssid: partner-specialized
 
 - name: Fiat Professional
-  url: https://www.fiatprofessional.com/cz
+  url: https://www.dojacek.cz/
   cssid: partner-fiat
 
 - name: Auto Dojáček
@@ -26,9 +26,9 @@
   url: https://www.trainingpeaks.com/
   cssid: partner-trainingpeaks
 
-- name: GU
-  url: https://guenergy.com/
-  cssid: partner-gu
+- name: Etixx Sports Nutrition
+  url: https://www.lawi.cz/etixx
+  cssid: partner-etixx
 
 - name: Finish Line
   url: https://eshop.progresscycle.cz/kategorie/znacky/finish-line/

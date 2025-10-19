@@ -1,5 +1,19 @@
 <div class="container" id="team">
 
+    {% if page.lang == "cs" %}
+        <div class="alert alert-warning mt-4" role="alert">
+            <h4>Přihláška pro nové členy</h4>
+            <p>
+                Zaujala vás činnost našeho oddílu? Máte doma mladého bikera nebo bikerku a přemýšlíte, jak zajistit správný sportovní rozvoj?
+                Vyplňte přihlášku a přidejte se k našemu oddílu. Pro více informací nás kontaktujte na e-mail <strong>info@bike-klub.cz</strong>.
+
+                <br>
+
+                <a class="btn btn-warning" href="prihlaska.html" role="button"><strong>Přihláška</strong></a>
+            </p>
+        </div>
+    {% endif %}
+
     <div id="support-team" class="mt-4" >
         <h1>{{ site.data.loc[page.lang].riders }}</h1>
         <div class="row">
@@ -32,12 +46,12 @@
     </div>
 
     <div id="contact">
-        <h2>    {{ site.data.loc[page.lang].contact }}</h2>
+        <h2>{{ site.data.loc[page.lang].contact }}</h2>
 
         <address>
           <strong>Bike klub Vimperk o.s.</strong>
           <br />
-          Pivovarská 68, 385 01 Vimperk 388411051
+          Pivovarská 68, 385 01 Vimperk
           <br />385 01 Vimperk
           <br />{{site.data.loc[page.lang].czech-republic}}
           <br />

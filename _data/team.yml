@@ -2,7 +2,7 @@ staff:
 
 - name: "Jiří Lutovský"
   email: "lutak@bike-klub.cz"
-  img: "/img/lutak.jpg"
+  img: "/img/lutak.png"
   content:
     cs: "manažer týmu, šéf trenér"
     en: "team manage, head coach"
@@ -39,14 +39,8 @@ riders:
 - name: "Adéla Holubová"
   img: "/img/adela-holubova-profil.png"
   content:
-    cs: "Ženy U23"
-    en: "Women U23"
-
-# - name: "Nela Viktorová"
-#   img: "/img/nela-viktorova-profil.png"
-#   content:
-#     cs: "Ženy U23"
-#     en: "Women U23"
+    cs: "Ženy Elite"
+    en: "Women Elite"
 
 - name: "Kateřina Bayerová"
   img: "/img/katerina-bayerova-profil.png"
@@ -57,8 +51,8 @@ riders:
 - name: "Marika Pulkrabová"
   img: "/img/marika-pulkrabova-profil.png"
   content:
-    cs: "Juniorky"
-    en: "Junior Women"
+    cs: "Ženy U23"
+    en: "Women U23"
 
 - name: "Jakub Vlasatý"
   img: "/img/jakub-vlasaty-profil.png"
@@ -69,8 +63,8 @@ riders:
 - name: "Patrik Pilař"
   img: "/img/patrik-pilar-profil.png"
   content:
-    cs: "Junior"
-    en: "Junior Men"
+    cs: "Muži U23"
+    en: "Men U23"
 
 - name: "Lucie Bořánková"
   img: "/img/lucie-borankova-profil.png"
@@ -81,13 +75,32 @@ riders:
 - name: "Barbora Dvořáková"
   img: "/img/barbora-dvorakova-profil.png"
   content:
-    cs: "Juniorka"
-    en: "Junior Women"
+    cs: "Ženy U23"
+    en: "Women U23"
 
 - name: "Nikola Zárybnická"
   img: "/img/nikola-zaribnicka-profil.png"
   content:
-    cs: "Juniorka"
-    en: "Junior Women"
+    cs: "Ženy U23"
+    en: "Women U23"
+
+- name: "Vincent Jirouš"
+  img: "/img/vincent-jirous-profil.png"
+  content:
+    cs: "Kadet"
+    en: "U17 Men"
+  
+- name: "Matěj Novák"
+  img: "/img/matej-novak-profil.png"
+  content:
+    cs: "Kadet"
+    en: "U17 Men"
+
+- name: "Václav Růžička"
+  img: "/img/profile-placeholder.png"
+  content:
+    cs: "Kadet"
+    en: "U17 Men"
+
 
 
