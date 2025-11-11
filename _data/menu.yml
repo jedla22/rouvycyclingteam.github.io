@@ -18,6 +18,9 @@ cs:
 - name: Team
   url: /team.html
 
+- name: Granty
+  url: /grants.html
+
 en:
 
 - name: Czech MTB CUP Zadov
