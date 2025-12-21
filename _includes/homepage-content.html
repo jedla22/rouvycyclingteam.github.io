@@ -99,10 +99,24 @@
     <div class="row main-info" >
     
          <div class="col-md-8" >
+            {% if page.lang == "cs" %}
+                <div id="news" class="mt-4 news mb-2" >
+                    <img class="img-fluid" src="/img/rouvy-specialized-team-2025.jpg" alt="ROUVY Cycling Team 2025">
+                    <div class="news-buttons-wrapper">
+                        <a href="prezentace.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">Shrnutí sezóny 2025</a>
+                        <a href="rouvy-2026.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">Plán sezóny 2026</a>
+                    </div>
+                
+                    <p class="pb-2">
+                        Podívejte se na kompletní přehled výsledků, úspěchů a aktivit týmu ROUVY Cycling Team v sezóně 2025. Závodníci dosáhli výborných výsledků na domácích i mezinárodních závodech a tým pokračoval v podpoře mladých talentů. Připravili jsme také detailní plán nadcházející sezóny 2026, kde zjistíte, jaké závody nás čekají, jaké jsou naše cíle a jak budeme pokračovat v rozvoji mladých cyklistů.
+                    </p>
+                                
+                </div>
+            {% endif %} 
 
              <div id="news" class="mt-4 news mb-2" >
                  <img class="img-fluid" src="/img/lipno-camp-news.jpg" alt="site.data.loc[page.lang].homepage-title">
-                 {% if page.lang == "cs" %}
+                {% if page.lang == "cs" %}
                     <a href="KidsInterregCampLipno.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
                 {% else %}
                     <a href="/KidsInterregCampLipnoEN.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a> 
@@ -110,39 +124,19 @@
             
                 <p class="pb-2">
                     {{ site.data.loc[page.lang].granz-camp-lipno-content }}
-                </p>
-                
-                               
+                </p>                
             </div>
 
             <div id="news" class="mt-4 news mb-2">
                  <img class="img-fluid" src="/img/kids-camp.jpeg" alt=" site.data.loc[page.lang].homepage-title">
                 <a href="https://www.bikearena-wegscheid.de/kidsmtbgrenzlandcamp" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
-
                 <p class="pb-2">
                     {{ site.data.loc[page.lang].granz-camp-content }}
-                </p>
-               
-
-                
+                </p> 
             </div>
-
-             <div id="news" class="mt-4 news mb-2">
-                <img class="img-fluid" src="/img/nela-viktorova.png" alt=" site.data.loc[page.lang].homepage-title">
-                {% if page.lang == "cs" %}
-                    <a href="season-2023-compressed.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
-                {% else %}
-                    <a href="/season-2023-compressed.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a> 
-                {% endif %}
-                <p>
-                    {{ site.data.loc[page.lang]. homepage-article-contnet }}
-                </p>
-            
-            </div>
-       
 
             <div class="videoWrapper">
-                <iframe width="100%"  src="https://www.youtube.com/embed/AXks-lZxpdg?si=CPxSEve7EyaVtaRh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%"  src="https://www.youtube.com/embed/SrqEK9VowlM?si=4E4CHRd1buaiCR4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
            
         </div>

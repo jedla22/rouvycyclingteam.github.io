@@ -192,6 +192,49 @@ nav.bg-dark {
     right: 35px;
 }
 
+.main-info div.news .news-buttons-wrapper
+{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.main-info div.news .news-buttons-wrapper > a
+{
+    position: relative;
+    top: auto;
+    right: auto;
+}
+
+@media (max-width: 767px)
+{
+    .main-info div.news .news-buttons-wrapper
+    {
+        position: relative;
+        top: auto;
+        right: auto;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .main-info div.news .news-buttons-wrapper > a
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .main-info div.news .news-buttons-wrapper > a:last-child
+    {
+        margin-bottom: 0;
+    }
+}
+
 nav.navbar .nav-item a.lang-nav
 {
     text-transform: uppercase;
