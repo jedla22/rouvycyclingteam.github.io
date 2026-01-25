@@ -15,6 +15,9 @@ cs:
 - name: Trénuj s námi
   url: /trenujsnami.html
 
+- name: ROUVY Grand Prix
+  url: /rouvy-grand-prix.html
+
 - name: Team
   url: /team.html
 
@@ -31,6 +34,9 @@ en:
 
 - name: ROUVY Camps
   url: https://camp.rouvy.com/
+
+- name: ROUVY Grand Prix
+  url: /en/rouvy-grand-prix.html
 
 - name: Team
   url: /en/team.html
