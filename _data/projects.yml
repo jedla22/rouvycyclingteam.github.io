@@ -13,7 +13,7 @@ cs:
   cssid: project-spmtb
 
 - name: ROUVY Grand Prix
-  url: https://www.joycycling.cz/vimperk/#propozice
+  url: /rouvy-grand-prix.html
   cssid: project-rouvy-grand-prix
 
 - name: Trénuj s námi
@@ -28,7 +28,7 @@ en:
 #   cssid: project-cpxco
 
 - name: ROUVY Grand Prix
-  url: https://www.joycycling.cz/en/vimperk/
+  url: /en/rouvy-grand-prix.html
   cssid: project-rouvy-grand-prix
 
 - name: ROUVY Rides

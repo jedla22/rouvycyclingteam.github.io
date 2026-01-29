@@ -30,9 +30,9 @@
   url: https://www.lawi.cz/etixx
   cssid: partner-etixx
 
-- name: Finish Line
-  url: https://eshop.progresscycle.cz/kategorie/znacky/finish-line/
-  cssid: partner-finish-line
+- name: Cyklostar
+  url: https://www.cyklostar.cz/
+  cssid: partner-cyklostar
 
 - name: Jihočeský Kraj
   url: https://www.kraj-jihocesky.cz/
