@@ -2,14 +2,14 @@ staff:
 
 - name: "Jiří Lutovský"
   email: "lutak@bike-klub.cz"
-  img: "/img/lutak.png"
+  img: "/img/lutak.jpeg"
   content:
     cs: "manažer týmu, šéf trenér"
     en: "team manage, head coach"
 
 - name: "Jakub Kadlec"
   email: "kubakadlec9@gmail.com"
-  img: "/img/jakub-kadlec-profil.png"
+  img: "/img/jakub-kadlec.jpeg"
   content:
     cs: "trenér"
     en: "team manage, coach"
@@ -21,12 +21,19 @@ staff:
     cs: "trenér mládeže, webmaster"
     en: "kids coach, webmaster"
 
-- name: "Tomáš Král"
+- name: "Lukáš Malý"
   email: ""
-  img: "/img/tomas-kral-profil.png"
+  img: "/img/lukas-maly.jpeg"
   content:
-    cs: "Mechanik, 4X rider"
-    en: "mechanic, 4X rider"
+    cs: "Mechanikr"
+    en: "mechanic"
+
+- name: „Štěpán Vytlačil"
+  email: ""
+  img: "/img/stepan-vytlacil.jpeg"
+  content:
+    cs: "Mechanik"
+    en: "mechanic"
 
 - name: "Robert Jezl"
   img: "/img/robert.jpg"
@@ -37,70 +44,64 @@ staff:
 riders:
   
 - name: "Adéla Holubová"
-  img: "/img/adela-holubova-profil.png"
+  img: "/img/adela-holubova.jpeg"
   content:
     cs: "Ženy Elite"
     en: "Women Elite"
 
 - name: "Kateřina Bayerová"
-  img: "/img/katerina-bayerova-profil.png"
+  img: "/img/katerina-bayerova.jpeg"
   content:
     cs: "Ženy U23"
     en: "Women U23"
 
 - name: "Marika Pulkrabová"
-  img: "/img/marika-pulkrabova-profil.png"
+  img: "/img/marika-pulkrabova.jpeg"
   content:
     cs: "Ženy U23"
     en: "Women U23"
 
-- name: "Jakub Vlasatý"
-  img: "/img/jakub-vlasaty-profil.png"
-  content:
-    cs: "Muži U23"
-    en: "Men U23"
-
-- name: "Patrik Pilař"
-  img: "/img/patrik-pilar-profil.png"
+- name: "Patrik Pilař"  
+  img: "/img/patrik-pilar.jpeg"
   content:
     cs: "Muži U23"
     en: "Men U23"
 
 - name: "Lucie Bořánková"
-  img: "/img/lucie-borankova-profil.png"
+  img: "/img/lucie-borankova.jpeg"
   content:
     cs: "Juniorka"
     en: "Junior Women"
 
-- name: "Barbora Dvořáková"
-  img: "/img/barbora-dvorakova-profil.png"
-  content:
-    cs: "Ženy U23"
-    en: "Women U23"
-
 - name: "Nikola Zárybnická"
-  img: "/img/nikola-zaribnicka-profil.png"
+  img: "/img/nikola-zaribnicka.jpeg"
   content:
     cs: "Ženy U23"
     en: "Women U23"
 
-- name: "Vincent Jirouš"
-  img: "/img/vincent-jirous-profil.png"
-  content:
-    cs: "Kadet"
-    en: "U17 Men"
   
 - name: "Matěj Novák"
-  img: "/img/matej-novak-profil.png"
+  img: "/img/matej-novak.jpeg"
   content:
-    cs: "Kadet"
-    en: "U17 Men"
+    cs: "Junior"
+    en: "U19 Men"
 
 - name: "Václav Růžička"
-  img: "/img/profile-placeholder.png"
+  img: "/img/vaclav-ruzicka.jpeg"
+  content:
+    cs: "Junior"
+    en: "U19 Men"
+
+- name: "Adam Šalanda"
+  img: "/img/adam-salanda.jpeg"
   content:
     cs: "Kadet"
     en: "U17 Men"
 
+- name: "Jakub Černý"
+  img: "/img/jakub-cerny.jpeg"
+  content:
+    cs: "Junior"
+    en: "U19 Men"
 
 
