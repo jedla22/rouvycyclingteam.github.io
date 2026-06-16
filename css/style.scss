@@ -608,3 +608,16 @@ footer #partners-footer a#footer-partner-mesto-vimperk {
 .content-section-white a:hover {
     color: #003d82;
 }
+
+.grant-header {
+    .grant-logo {
+        width: 120px;
+        max-height: 80px;
+        object-fit: contain;
+    }
+
+    h2,
+    h3 {
+        margin-top: 0;
+    }
+}
