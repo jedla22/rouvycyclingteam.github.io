@@ -95,6 +95,44 @@ lang: cs
 		<div class="grant-header d-flex align-items-start mb-3">
 			<img src="/img/loga/jihocesky-kraj-v2-green.png" class="grant-logo rounded flex-shrink-0 mr-3" alt="Jihočeský kraj logo">
 			<div>
+				<h3>Velká cena Vimperka horských kol</h3>
+				<div class="grant-meta mb-0">
+					<span class="badge badge-primary">Rok: 2026</span>
+					<span class="badge badge-secondary">Poskytovatel: Jihočeský kraj</span>
+				</div>
+			</div>
+		</div>
+		<div class="grant-content">
+			<p>
+				Uspořádání závodu horských kol Velká cena Vimperka se podařilo. Závodu se zúčastnilo přes 100 závodníků všech věkových kategorií, převážně z Jižních Čech. Největší účast byla v dětských a dorosteneckých kategoriích, na které tento závod především cílí. Z dotace byly uhrazeny ceny, značení tratí, záchranná a pořadatelská služba a odměny rozhodčích.
+			</p>
+			<div class="grant-gallery" id="vc-vimperk-gallery-2026">
+				<a class="gallery-item gallery-item--hero" href="/img/grants/2026/vc-vimperk/01-start-mladsi.jpg">
+					<img src="/img/grants/2026/vc-vimperk/01-start-mladsi.jpg" alt="Start mladších kategorií na Velké ceně Vimperka" loading="lazy">
+				</a>
+				<a class="gallery-item" href="/img/grants/2026/vc-vimperk/02-sjezd.jpg">
+					<img src="/img/grants/2026/vc-vimperk/02-sjezd.jpg" alt="Závodníci ve sjezdu na Velké ceně Vimperka" loading="lazy">
+				</a>
+				<a class="gallery-item" href="/img/grants/2026/vc-vimperk/03-skaly.jpg">
+					<img src="/img/grants/2026/vc-vimperk/03-skaly.jpg" alt="Závodník ROUVY na skalnatém úseku trati" loading="lazy">
+				</a>
+				<a class="gallery-item" href="/img/grants/2026/vc-vimperk/04-lesni-trat.jpg">
+					<img src="/img/grants/2026/vc-vimperk/04-lesni-trat.jpg" alt="Závod v lesním úseku Velké ceny Vimperka" loading="lazy">
+				</a>
+				<a class="gallery-item" href="/img/grants/2026/vc-vimperk/05-start-starsi.jpg">
+					<img src="/img/grants/2026/vc-vimperk/05-start-starsi.jpg" alt="Start starších kategorií na Velké ceně Vimperka" loading="lazy">
+				</a>
+				<a class="gallery-item gallery-item--wide" href="/img/grants/2026/vc-vimperk/06-stupne-vitezu.jpg">
+					<img src="/img/grants/2026/vc-vimperk/06-stupne-vitezu.jpg" alt="Stupně vítězů dětské kategorie na Velké ceně Vimperka" loading="lazy">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="grant-item mb-5">
+		<div class="grant-header d-flex align-items-start mb-3">
+			<img src="/img/loga/jihocesky-kraj-v2-green.png" class="grant-logo rounded flex-shrink-0 mr-3" alt="Jihočeský kraj logo">
+			<div>
 				<h3>Nové překážky pro trénink techniky na horských kolech</h3>
 				<div class="grant-meta mb-0">
 					<span class="badge badge-primary">Rok: 2026</span>
@@ -454,8 +492,8 @@ Celý projekt má díky propojenosti mnoha zdrojů financování budoucnost a ud
 
 <script>
 $(function () {
-	var $gallery = $('#interreg-gallery-2026');
-	if (!$gallery.length) {
+	var $galleries = $('.grant-gallery');
+	if (!$galleries.length) {
 		return;
 	}
 
@@ -467,7 +505,7 @@ $(function () {
 		$lightbox.find('img').attr({ src: '', alt: '' });
 	}
 
-	$gallery.on('click', 'a', function (event) {
+	$galleries.on('click', 'a', function (event) {
 		event.preventDefault();
 		var $link = $(this);
 		var caption = $link.find('img').attr('alt') || '';
