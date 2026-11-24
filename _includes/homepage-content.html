@@ -18,56 +18,56 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
             </ol>
             <div class="carousel-item active">
-                <img src="/img/rouvy-promo-v1.jpg" class="d-block w-100" alt="MČR XCO Bedřichov">
+                <img src="{{ '/img/rouvy-promo-v1.jpg' | relative_url }}" class="d-block w-100" alt="MČR XCO Bedřichov">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>World Cup XCO</h6>
                     <h4>ARAXA</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v2.jpg" class="d-block w-100" alt="MČR XCO Bedřichov">
+                <img src="{{ '/img/rouvy-promo-v2.jpg' | relative_url }}" class="d-block w-100" alt="MČR XCO Bedřichov">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>MČR XCO</h6>
                     <h4>Bedřichov</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v3.jpg" class="d-block w-100" alt="MČR XCO Bedřichov">
+                <img src="{{ '/img/rouvy-promo-v3.jpg' | relative_url }}" class="d-block w-100" alt="MČR XCO Bedřichov">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>World Cup XCO</h6>
                     <h4>ARAXA</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v8.jpg" class="d-block w-100" alt="Worl Championchip">
+                <img src="{{ '/img/rouvy-promo-v8.jpg' | relative_url }}" class="d-block w-100" alt="Worl Championchip">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>HC XCO</h6>
                     <h4>LENZERHEIDE</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v5.jpg" class="d-block w-100" alt="Elba Capoliveri Legend - XCO HC">
+                <img src="{{ '/img/rouvy-promo-v5.jpg' | relative_url }}" class="d-block w-100" alt="Elba Capoliveri Legend - XCO HC">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>MČR XCO</h6>
                     <h4>Bedřichov</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v6.jpg" class="d-block w-100" alt="Elba Capoliveri Legend - XCO HC">
+                <img src="{{ '/img/rouvy-promo-v6.jpg' | relative_url }}" class="d-block w-100" alt="Elba Capoliveri Legend - XCO HC">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>World Cup XCO</h6>
                     <h4>NMNM</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v7.jpg" class="d-block w-100" alt="Ötzaler MTB Festival Haiming - XCO HC">
+                <img src="{{ '/img/rouvy-promo-v7.jpg' | relative_url }}" class="d-block w-100" alt="Ötzaler MTB Festival Haiming - XCO HC">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>World Cup XCO</h6>
                     <h4>LES GETS</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/rouvy-promo-v4.jpg" class="d-block w-100" alt="World Cup Mont-Sainte-Anne">
+                <img src="{{ '/img/rouvy-promo-v4.jpg' | relative_url }}" class="d-block w-100" alt="World Cup Mont-Sainte-Anne">
                 <div class="carousel-caption d-none d-md-block rounded">
                     <h6>World Cup XCO</h6>
                     <h4>CRANS MONTANA</h4>
@@ -101,7 +101,7 @@
          <div class="col-md-8" >
             {% if page.lang == "cs" %}
                 <div id="news" class="mt-4 news mb-2" >
-                    <img class="img-fluid" src="/img/rouvy-specialized-team-2025.jpg" alt="ROUVY Cycling Team 2025">
+                    <img class="img-fluid" src="{{ '/img/rouvy-specialized-team-2025.jpg' | relative_url }}" alt="ROUVY Cycling Team 2025">
                     <div class="news-buttons-wrapper">
                         <a href="prezentace.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">Shrnutí sezóny 2025</a>
                         <a href="rouvy-2026.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">Plán sezóny 2026</a>
@@ -119,19 +119,19 @@
             </div>
 
              <div id="news" class="mt-4 news mb-2" >
-                 <img class="img-fluid" src="/img/kids-mtb-grenzland-camp-zadov-2026.jpg" alt="Kids MTB Grenzland Camp Zadov 2026">
-                <a href="/grants.html#interreg-2026" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
+                 <img class="img-fluid" src="{{ '/img/kids-mtb-grenzland-camp-zadov-2026.jpg' | relative_url }}" alt="Kids MTB Grenzland Camp Zadov 2026">
+                <a href="{{ '/grants.html#interreg-2026' | relative_url }}" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
                 <p class="pb-2">
                     {{ site.data.loc[page.lang].granz-camp-zadov-2026-content }}
                 </p>
             </div>
 
              <div id="news" class="mt-4 news mb-2" >
-                 <img class="img-fluid" src="/img/lipno-camp-news.jpg" alt="site.data.loc[page.lang].homepage-title">
+                 <img class="img-fluid" src="{{ '/img/lipno-camp-news.jpg' | relative_url }}" alt="site.data.loc[page.lang].homepage-title">
                 {% if page.lang == "cs" %}
-                    <a href="KidsInterregCampLipno.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
+                    <a href="{{ '/KidsInterregCampLipno.pdf' | relative_url }}" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
                 {% else %}
-                    <a href="/KidsInterregCampLipnoEN.pdf" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a> 
+                    <a href="{{ '/KidsInterregCampLipnoEN.pdf' | relative_url }}" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a> 
                 {% endif %}
             
                 <p class="pb-2">
@@ -140,7 +140,7 @@
             </div>
 
             <div id="news" class="mt-4 news mb-2">
-                 <img class="img-fluid" src="/img/kids-camp.jpeg" alt=" site.data.loc[page.lang].homepage-title">
+                 <img class="img-fluid" src="{{ '/img/kids-camp.jpeg' | relative_url }}" alt=" site.data.loc[page.lang].homepage-title">
                 <a href="https://www.bikearena-wegscheid.de/kidsmtbgrenzlandcamp" class="btn btn-primary btn-secondary btn-lg active" role="button" aria-pressed="true">{{ site.data.loc[page.lang].read-more }}</a>
                 <p class="pb-2">
                     {{ site.data.loc[page.lang].granz-camp-content }}
@@ -158,7 +158,7 @@
         </div>
         <div class="bg-info clearfix"> </div>
         <!-- <a href="img/poster-VCV-22-small.png">
-            <img alt="ROUVY Velká Cena Vimperka MTB XCO 2020 poster" title="ROUVY Velká Cena Vimperka MTB XCO 2020 poster" src="/img/poster-VCV-22-small.png" class="img-fluid center-block"/>
+            <img alt="ROUVY Velká Cena Vimperka MTB XCO 2020 poster" title="ROUVY Velká Cena Vimperka MTB XCO 2020 poster" src="{{ '/img/poster-VCV-22-small.png' | relative_url }}" class="img-fluid center-block"/>
         </a> -->
     </div>
 
@@ -171,7 +171,7 @@
                     <div class="col-md-6 col-sm-12" id="{{ project-id }}">
                         <div   id="{{ project.cssid }}" class="project-content">
                             <h4>
-                                <a href="{{ project.url }}" class="roundedAll">
+                                <a href="{{ project.url | relative_url }}" class="roundedAll">
                                     {{ project.name }}
                                 </a>
                             </h4>

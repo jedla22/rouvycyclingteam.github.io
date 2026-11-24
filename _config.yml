@@ -1,4 +1,8 @@
 title: ROUVY Cycling Team
+# Site is served by GitHub Pages as a project site under this sub-path.
+# For local development at http://127.0.0.1:4000/ use _config_dev.yml (see README).
+url: "https://jedla22.github.io"
+baseurl: "/rouvycyclingteam.github.io"
 sass:
     sass_dir: css
     style: compressed

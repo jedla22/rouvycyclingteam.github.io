@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="ROUVY Cycling Team, ROUVY, Specialized, MTB, XCO, Bike klub Vimperk, UC1 Trade team." />
   <meta name='description' content='ROUVY Specialized Cycling Team - {{ page.description }}'>
-  <meta property="og:url" content='{{ site.title }} - {{ page.url }}' />
+  <meta property="og:url" content='{{ page.url | absolute_url }}' />
   <meta property="og:type" content='website' />
   <meta property="og:title" content='{{ page.title }}' />
   <meta property="og:description" content='{{ page.description }}'/>
-  <meta property="og:image" content='{{ site.baseur }}/img/header.jpg' />
+  <meta property="og:image" content='{{ "/img/header.jpg" | absolute_url }}' />
   <meta property="og:locale" content='cs_CZ' />
   <title>{{ site.title }} - {{ page.title }} -</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="/js/jquery-3.3.1.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  <script src="{{ '/js/jquery-3.3.1.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
 
 </head>

@@ -8,8 +8,8 @@
             {% assign lang-nav = "cs" %}
             {% assign lang-nav-link = "/" %}
         {% endif %}
-        <a class="navbar-brand" href="{{ lang-link }}">
-            <img src="/img/rouvy-team-logo.png" width="150" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="{{ lang-link | relative_url }}">
+            <img src="{{ '/img/rouvy-team-logo.png' | relative_url }}" width="150" height="30" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,12 +23,12 @@
                         </li>
                     {% else %}
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ menu.url }}">{{ menu.name }}</a>
+                            <a class="nav-link" href="{{ menu.url | relative_url }}">{{ menu.name }}</a>
                         </li>
                     {% endif %}
                 {% endfor %}
                 <li class="nav-item">
-                    <a class="nav-link lang-nav lang-{{ lang-nav }}" href="{{ lang-nav-link }}">{{ lang-nav }}</a>
+                    <a class="nav-link lang-nav lang-{{ lang-nav }}" href="{{ lang-nav-link | relative_url }}">{{ lang-nav }}</a>
                 </li>
             </ul>
         </div>
